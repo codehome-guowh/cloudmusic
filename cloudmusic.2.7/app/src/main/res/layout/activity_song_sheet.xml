@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SongSheetActivity"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"
+            android:background="@drawable/wallpaper"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark">
+                <com.example.cloudmusic.views.CircleAngleView
+                    android:id="@+id/imageview_song_sheet_songsheetimage"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/head3">
+                </com.example.cloudmusic.views.CircleAngleView>
+                <TextView
+                    android:id="@+id/text_song_sheet_songsheetname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="我的最爱"
+                    android:textSize="25dp"
+                    android:layout_toRightOf="@id/imageview_song_sheet_songsheetimage">
+                </TextView>
+                <com.example.cloudmusic.views.CircleView
+                    android:id="@+id/circleview_song_sheet_userheader"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@id/imageview_song_sheet_songsheetimage"
+                    android:layout_below="@id/text_song_sheet_songsheetname"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/head2">
+
+                </com.example.cloudmusic.views.CircleView>
+                <TextView
+                    android:id="@+id/text_song_sheet_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="3dp"
+                    android:text="伟虎威"
+                    android:layout_toRightOf="@id/circleview_song_sheet_userheader"
+                    android:layout_below="@id/text_song_sheet_songsheetname">
+                </TextView>
+               <ImageButton
+                   android:id="@+id/imagebtn_song_sheet_add"
+                   android:layout_width="20dp"
+                   android:layout_height="20dp"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginRight="25dp"
+                   android:layout_alignParentBottom="true"
+                   android:layout_marginBottom="15dp"
+                   android:background="@drawable/add">
+               </ImageButton>
+
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/list_song_sheet"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+            </ListView>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/lt_song_sheet_play"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/pink"
+        android:orientation="horizontal">
+        <com.example.cloudmusic.views.CircleView
+            android:id="@+id/imageview_song_sheet_songimagesmall"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp">
+        </com.example.cloudmusic.views.CircleView>
+        <TextView
+            android:id="@+id/text_song_sheet_songname"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="20dp"
+            android:text="铃声"
+            android:layout_toRightOf="@+id/imageview_song_sheet_songimagesmall">
+        </TextView>
+        <TextView
+            android:id="@+id/text_song_sheet_lyric"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="10dp"
+            android:text="未知"
+            android:layout_toRightOf="@+id/imageview_song_sheet_songimagesmall"
+            android:layout_below="@+id/text_song_sheet_songname">
+        </TextView>
+        <ImageButton
+            android:id="@+id/imagebutton_song_sheet_play"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+        </ImageButton>
+    </RelativeLayout>
+
+</LinearLayout>

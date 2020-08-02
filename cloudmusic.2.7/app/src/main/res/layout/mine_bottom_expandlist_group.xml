@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <ImageView
+        android:id="@+id/imageview_mine_bottom_arrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/text_songsheetclass"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imageview_mine_bottom_arrow"
+        android:gravity="center"
+        android:textSize="20dp">
+    </TextView>
+    <TextView
+        android:layout_toRightOf="@id/text_songsheetclass"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/text_songsheetcount"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:gravity="center">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageview_mine_bottom_groupmenu"
+        android:layout_alignParentRight="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"></ImageView>
+
+
+</RelativeLayout>

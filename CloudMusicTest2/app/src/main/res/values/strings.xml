@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name" translatable="false">网易云Music</string>
+    <string name="tabItem1">我的</string>
+    <string name="tabItem2">发现</string>
+    <string name="tabItem3">视频</string>
+
+
+    <string name="text21">每日推荐</string>
+    <string name="text22">歌单</string>
+    <string name="text23">排行榜</string>
+    <string name="text24">电台</string>
+    <string name="text25">直播</string>
+    <string name="text31">宝藏歌单，值得聆听</string>
+    <string name="text41">华语|清新自然</string>
+    <string name="text42">出行|出行必备</string>
+    <string name="text43">独自|安静休闲</string>
+    <string name="text51">精选歌曲</string>
+    <string name="discover_i_textview">花花世界</string>
+    <string name="playPattern">playPattern</string>
+    <string name="music_bottom_line">music_bottom_line</string>
+    <string name="local_music_bottom_iv_icon">local_music_bottom_iv_icon</string>
+    <string name="tv_song">暂未选择歌曲</string>
+    <string name="tv_singer">暂无歌手</string>
+    <string name="seekBarBegin">00:00</string>
+    <string name="seekBarTotal">00:00</string>
+    <string name="iv_next">iv_next</string>
+    <string name="iv_play">iv_play</string>
+    <string name="iv_last">iv_last</string>
+    <string name="love_click">love_click</string>
+    <string name="username">账号：</string>
+    <string name="username_hint">请输入账号</string>
+    <string name="password">密码：</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="song_name">歌名</string>
+    <string name="author">作者</string>
+    <string name="username1">账         号：</string>
+    <string name="confirm">确认：</string>
+    <string name="confirm_again">请再次输入密码</string>
+    <string name="phone">手机：</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="back">返回</string>
+    <string name="please_login">请登录</string>
+    <string name="my_message">我的消息</string>
+    <string name="my_friend">我的好友</string>
+    <string name="my_page">个人主页</string>
+    <string name="dress_up">个性装扮</string>
+    <string name="native_music">本地音乐</string>
+    <string name="love_music">喜爱音乐</string>
+    <string name="online_music">在线音乐</string>
+</resources>

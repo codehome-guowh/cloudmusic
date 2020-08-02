@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">cloudmusic</string>
+    <string name="title" translatable="false">歌单</string>
+    <string name="songname" translatable="false">铃声</string>
+    <string name="singer" translatable="false">未知</string>
+
+
+</resources>

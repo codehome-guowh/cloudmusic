@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/g10">
+        <item
+            android:id="@+id/item66"
+
+            android:title="最怕一生碌碌无为，还说平凡难能可贵。"></item>
+    </group>
+    <group android:id="@+id/g1">
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/lay_icn_alb"
+            android:title="创作者中心"></item>
+    </group>
+    <group android:id="@+id/g2">
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/topmenu_icn_identify"
+            android:title="听歌识曲"></item>
+        <item
+            android:id="@+id/item3"
+            android:icon="@drawable/topmenu_icn_level"
+            android:title="演出"></item>
+        <item
+            android:id="@+id/item4"
+            android:icon="@drawable/topmenu_icn_store"
+            android:title="商城"></item>
+        <item
+            android:id="@+id/item5"
+            android:icon="@drawable/topmenu_icn_vehicle"
+            android:title="游戏推荐"></item>
+        <item
+            android:id="@+id/item6"
+            android:icon="@drawable/topmenu_icn_night"
+            android:title="附近的人"></item>
+        <item
+            android:id="@+id/item7"
+            android:icon="@drawable/topmenu_icn_member"
+            android:title="口袋彩铃"></item>
+    </group>
+    <group android:id="@+id/g3">
+        <item
+            android:id="@+id/item8"
+            android:icon="@drawable/topmenu_icn_free"
+            android:title="我的订单"></item>
+        <item
+            android:id="@+id/item9"
+            android:icon="@drawable/topmenu_icn_clock"
+            android:title="定时停止播放"></item>
+        <item
+            android:id="@+id/item10"
+            android:icon="@drawable/topmenu_icn_msg"
+            android:title="扫一扫"></item>
+        <item
+            android:id="@+id/item11"
+            android:icon="@drawable/topmenu_icn_clock"
+            android:title="音乐闹钟"></item>
+        <item
+            android:id="@+id/item12"
+            android:icon="@drawable/topmenu_icn_cloud"
+            android:title="音乐云盘"></item>
+        <item
+            android:id="@+id/item13"
+            android:icon="@drawable/topmenu_icn_free"
+            android:title="在线听歌免流量"></item>
+        <item
+            android:id="@+id/item14"
+            android:icon="@drawable/topmenu_icn_level"
+            android:title="优惠券"></item>
+        <item
+            android:id="@+id/item15"
+            android:icon="@drawable/topmenu_icn_vip"
+            android:title="青少年模式"></item>
+    </group>
+</menu>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">NetEaseMusic</string>
+    <string name="background_before" translatable="false">TODO</string>
+    <string name="nav" translatable="false">≡</string>
+    <string name="username">用户名</string>
+    <string name="menu1">创作者中心</string>
+    <string name="menu3">Ticket</string>
+    <string name="menu4">商城</string>
+    <string name="menu6">口袋彩铃</string>
+    <string name="menu7">我的订单</string>
+    <string name="menu13">优惠券</string>
+    <string name="menu14">青少年模式</string>
+    <string name="before" translatable="false">TODO</string>
+    <string name="find_icon1" translatable="false">TODO</string>
+    <string name="find_icon2" translatable="false">TODO</string>
+    <string name="find_icon3" translatable="false">TODO</string>
+    <string name="find_icon4" translatable="false">TODO</string>
+    <string name="sequence" translatable="false">顺序播放（默认）</string>
+    <string name="random" translatable="false">随机播放</string>
+    <string name="single" translatable="false">单曲循环</string>
+    <string name="songName" translatable="false">歌曲信息</string>
+    <string name="VIP" translatable="false">欢迎使用网易云音乐</string>
+    <string name="localMusic">Local Music</string>
+    <string name="text" translatable="false">TextView</string>
+    <string name="myMusic">MyMusic</string>
+    <string name="menu5">Nearby</string>
+    <string name="menu2">M.I</string>
+    <string name="menu8">Stop timer</string>
+    <string name="menu9">Scan QR</string>
+    <string name="menu10">Alarm</string>
+    <string name="menu11">Cloud Drive</string>
+    <string name="menu12">Buffet Data</string>
+    <string name="love">Like Music</string>
+    <string name="my">Mine</string>
+    <string name="wow">Wow</string>
+    <string name="Video">Video</string>
+    <string name="myLove">MyLove</string>
+</resources>

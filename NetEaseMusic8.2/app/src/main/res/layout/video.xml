@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:background="@color/colorAppDark"
+        android:id="@+id/re_layout_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--视频控件-->
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <!--播放器控制面板-->
+        <LinearLayout
+            android:id="@+id/control_panel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@id/video_view"
+            android:orientation="horizontal">
+            <!--之后设置android:visibility="gone"-->
+
+            <ImageView
+                android:id="@+id/play_button"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/stopping1"/>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingRight="15dp">
+
+                <SeekBar
+                    android:id="@+id/progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:maxHeight="4dp"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/progress_bar"
+                    android:layout_alignEnd="@id/progress_bar"
+                    android:layout_alignRight="@+id/progress_bar"
+                    android:textColor="@color/colorAppWhite"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <!-- 大播放按钮 -->
+        <ImageView
+            android:id="@+id/big_play_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            android:src="@drawable/stopping1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_below="@id/re_layout_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!--大标题-->
+        <TextView
+            android:id="@+id/bigTitle"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textSize="20sp"
+            android:textColor="@color/colorAppDark"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <!--头像-->
+            <ImageView
+                android:id="@+id/headImg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/circle_images"/>
+            <!--用户名-->
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="14dp"
+                android:textColor="@color/colorAppDark"/>
+            <!--点赞按钮-->
+            <ImageView
+                android:id="@+id/finger"
+                android:layout_marginLeft="200dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/video_zan"/>
+            <!--点赞数-->
+            <TextView
+                android:id="@+id/fingerNumber"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:maxLines="1"
+                android:text="20000"/>
+            <!--评论-->
+            <!--<ImageView
+                android:layout_marginLeft="30dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/video_pinglun"/>-->
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

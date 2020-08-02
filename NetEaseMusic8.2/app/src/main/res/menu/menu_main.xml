@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_head">
+        <item android:id="@+id/item"
+            android:icon="@drawable/userpic"
+            android:title="@string/username">
+        </item>
+    </group>
+    <group android:id="@+id/group_menu_1">
+        <item android:id="@+id/item1"
+            android:icon="@drawable/creator"
+            android:title="@string/menu1">
+        </item>
+    </group>
+    <group android:id="@+id/group_menu_2">
+        <item android:id="@+id/item2"
+            android:icon="@drawable/listen"
+            android:title="@string/menu2">
+        </item>
+        <item android:id="@+id/item3"
+            android:icon="@drawable/perform"
+            android:title="@string/menu3">
+        </item>
+        <item android:id="@+id/item4"
+            android:icon="@drawable/shop"
+            android:title="@string/menu4">
+        </item>
+        <item android:id="@+id/item5"
+            android:icon="@drawable/near"
+            android:title="@string/menu5">
+        </item>
+        <item android:id="@+id/item6"
+            android:icon="@drawable/ring"
+            android:title="@string/menu6">
+        </item>
+    </group>
+    <group android:id="@+id/group_menu_3">
+        <item android:id="@+id/item7"
+            android:icon="@drawable/order"
+            android:title="@string/menu7">
+        </item>
+        <item android:id="@+id/item8"
+            android:icon="@drawable/timer"
+            android:title="@string/menu8">
+        </item>
+        <item android:id="@+id/item9"
+            android:icon="@drawable/saoyisao"
+            android:title="@string/menu9">
+        </item>
+        <item android:id="@+id/item10"
+            android:icon="@drawable/time"
+            android:title="@string/menu10">
+        </item>
+        <item android:id="@+id/item11"
+            android:icon="@drawable/cloud"
+            android:title="@string/menu11">
+        </item>
+        <item android:id="@+id/item12"
+            android:icon="@drawable/liuliang"
+            android:title="@string/menu12">
+        </item>
+        <item android:id="@+id/item13"
+            android:icon="@drawable/discount"
+            android:title="@string/menu13">
+        </item>
+        <item android:id="@+id/item14"
+            android:icon="@drawable/teenager"
+            android:title="@string/menu14">
+        </item>
+    </group>
+</menu>

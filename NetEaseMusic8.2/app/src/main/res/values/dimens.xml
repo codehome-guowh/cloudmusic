@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divideHeight">1dp</dimen>
+    <dimen name="textSize_20">20dp</dimen>
+    <dimen name="textSize_40">40dp</dimen>
+    <dimen name="textSize_18">18dp</dimen>
+    <dimen name="textSize_15">15dp</dimen>
+    <dimen name="textSize_30">30dp</dimen>
+    <dimen name="marginLeft_120">120dp</dimen>
+</resources>

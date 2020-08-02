@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <com.example.cloudmusic.views.CircleAngleView
+        android:id="@+id/imageview_mine_bottom_songheader"
+        android:layout_marginTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true">
+    </com.example.cloudmusic.views.CircleAngleView>
+    <TextView
+        android:id="@+id/text_mine_songsheetname"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:padding="2dp"
+        android:textColor="@color/black"
+        android:gravity="bottom"
+        android:layout_toRightOf="@+id/imageview_mine_bottom_songheader">
+    </TextView>
+    <TextView
+        android:id="@+id/text_songamount"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/imageview_mine_bottom_songheader"
+        android:layout_below="@+id/text_mine_songsheetname">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageview_mine_bottom_childmenu"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp">
+    </ImageView>
+
+</RelativeLayout>

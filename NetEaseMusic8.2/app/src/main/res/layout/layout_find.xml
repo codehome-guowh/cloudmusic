@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/rotate_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/rotate_point_container"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"/>
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/shortcut_identify"
+                    android:contentDescription="@string/find_icon4" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="每日推荐"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/shortcut_fm"
+                    android:contentDescription="@string/find_icon4" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="电台"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/shortcut_local_music"
+                    android:contentDescription="@string/find_icon4" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="下载音乐"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/shortcut_search"
+                    android:contentDescription="@string/find_icon4" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="搜一搜"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:padding="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/shortcut_nusic"
+                    android:contentDescription="@string/find_icon4" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="宝宝音乐"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:padding="2dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/shortcut_jingpin"
+                    android:contentDescription="@string/find_icon4" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="精品分享"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="@dimen/textSize_20"
+            android:text="发现好音乐" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/find_downImg1"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/head_cq" />
+
+                <TextView
+                    android:id="@+id/find_downText1"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="张韶涵" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/find_downImg2"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/head_gdzl" />
+
+                <TextView
+                    android:id="@+id/find_downText2"
+                    android:layout_width="150dp"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="莫文蔚" />
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/find_downImg3"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/head_jfzdr" />
+
+                    <TextView
+                        android:id="@+id/find_downText3"
+                        android:layout_width="150dp"
+                        android:layout_height="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="陈翔" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/find_downImg4"
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/head_ncjwz" />
+
+                    <TextView
+                        android:id="@+id/find_downText4"
+                        android:layout_width="150dp"
+                        android:layout_height="10dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:text="薛凯琪" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

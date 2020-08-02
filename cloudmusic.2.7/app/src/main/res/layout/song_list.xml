@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <TextView
+        android:id="@+id/text_song_number"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_alignParentLeft="true">
+    </TextView>
+    <TextView
+        android:id="@+id/text_song_name"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/text_song_number">
+    </TextView>
+    <TextView
+        android:id="@+id/text_singer"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textSize="10dp"
+        android:layout_toRightOf="@id/text_song_number"
+        android:gravity="bottom"
+        android:layout_below="@id/text_song_name">
+    </TextView>
+    <ImageButton
+        android:id="@+id/imagebtn_song_sheet_delete"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/delete"
+        android:layout_marginRight="10dp">
+    </ImageButton>
+
+
+
+</RelativeLayout>
